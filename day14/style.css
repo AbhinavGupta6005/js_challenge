@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #000000;
+    color: white;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.container{
+    height: 800px;
+    width: 80%;
+    background-color: chocolate;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.gallary{
+    height: 50px;
+    width: 50px;
+}
